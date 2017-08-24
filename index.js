@@ -4,12 +4,8 @@ window.onload = function(){
 	var btn1= document.getElementById("btn1");
 	var i = 0;
 	var oImg = new Image();
-<<<<<<< HEAD
 	//图片URL
 	oImg.src = 'img/person.png';
-=======
-	oImg.src = 'person.png';
->>>>>>> origin/master
 	oImg.onload = function(){
 		setInterval(function(){
 			//画外圆
