@@ -4,7 +4,7 @@ window.onload = function(){
 	var btn1= document.getElementById("btn1");
 	var i = 0;
 	var oImg = new Image();
-	oImg.src = 'img/person.png';
+	oImg.src = 'person.png';
 	oImg.onload = function(){
 		setInterval(function(){
 			//画外圆
