@@ -4,7 +4,6 @@ window.onload = function(){
 	var btn1= document.getElementById("btn1");
 	var i = 0;
 	var oImg = new Image();
-	//图片URL
 	oImg.src = 'img/person.png';
 	oImg.onload = function(){
 		setInterval(function(){
